@@ -1,0 +1,22 @@
+name: CIFAR-10 Neptune example
+description: CIFAR-10 solution showing some features of Neptune.
+project: CIFAR-10 classification 
+       
+parameters:
+  - name: starting_learning_rate 
+    type: double
+    required: false
+    default: 0.001
+    description: "starting_learning_rate"
+
+  - name: shallow 
+    type: string 
+    required: false
+    default: "no" 
+    description: "use_shallow_network"
+
+  - name: use_batch_norm
+    type: string 
+    required: false
+    default: "yes" 
+    description: "use_batch_norm"
